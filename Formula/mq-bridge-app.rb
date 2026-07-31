@@ -4,20 +4,24 @@
 class MqBridgeApp < Formula
   desc "Universal, protocol-agnostic message and data bridge (CLI + MCP server)"
   homepage "https://github.com/marcomq/mq-bridge-app"
-  version "0.2.10"
+  version "0.2.11"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-app/releases/download/0.2.10/mq-bridge-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "47032cce23db6aead124469534ab737d284d05a714bca556ccc19965fbe2fd56"
+      url "https://github.com/marcomq/mq-bridge-app/releases/download/0.2.11/mq-bridge-cli-aarch64-apple-darwin.tar.gz"
+      sha256 "a2bbae78424f7ebce06e92f0f8d77b29fc77a8492ff78049a714499efb91d5bf"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/marcomq/mq-bridge-app/releases/download/0.2.10/mq-bridge-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cbd1eaee6ebd9524d5d6c1f45b35e545a8b1f7d376fb71b0155fbdb368bb4c06"
+      url "https://github.com/marcomq/mq-bridge-app/releases/download/0.2.11/mq-bridge-cli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "eb16e337071b68f55c55017a00dcc6a18d8d6e6acca375021f63205142e3ee5c"
+    end
+    on_arm do
+      url "https://github.com/marcomq/mq-bridge-app/releases/download/0.2.11/mq-bridge-cli-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d2e40aaf0107c25fbe39b7e662ee5cb471994422d7450b4bdd007eb34d65f879"
     end
   end
 
