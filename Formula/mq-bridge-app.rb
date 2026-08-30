@@ -10,18 +10,18 @@ class MqBridgeApp < Formula
   on_macos do
     on_arm do
       url "https://github.com/marcomq/mq-bridge/releases/download/v0.4.9/mq-bridge-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "70275e1f7ce2550b822eaaa87e23d91e4b9a329aa4d04bb25d8aad91160912b8"
+      sha256 "cf60e396a88865d8bb5e929263a63b8ad38fd575f1138569384c1cbc1ccf6769"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/marcomq/mq-bridge/releases/download/v0.4.9/mq-bridge-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7c5ccb84be1f75da9cecde07b5c467b66fcc11ad1bc9bfc6e78b30b3f0a019bd"
+      sha256 "abbd39f30acdaefe796b951f5f129d0bd0699aff294835ad43e78a506c13a369"
     end
     on_arm do
       url "https://github.com/marcomq/mq-bridge/releases/download/v0.4.9/mq-bridge-cli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4ada229a8735ed9bf7e7ffe312ea1b2754c290ab0ce619a36fe4c0ae127f1336"
+      sha256 "3371cc51c420d9f570a7d37f31b8f136e1daedbd64ec7d9fa7dfb51a9bc9fa9e"
     end
   end
 
