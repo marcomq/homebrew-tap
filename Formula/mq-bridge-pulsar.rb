@@ -4,28 +4,28 @@
 class MqBridgePulsar < Formula
   desc "Apache Pulsar endpoint plugin for mq-bridge"
   homepage "https://github.com/marcomq/mq-bridge-pulsar"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.4/mq-bridge-pulsar-darwin-arm64.tar.gz"
-      sha256 "c0795e496e003405d3f2fda623127989c9947813c8e60bdaa89a50cb33aedced"
+      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.5/mq-bridge-pulsar-0.1.5-aarch64-apple-darwin.tar.gz"
+      sha256 "dda72643096d7d4e76bf30127d1240538a10b0c5df6120432cba8914db6d9b9c"
     end
     on_intel do
-      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.4/mq-bridge-pulsar-darwin-x64.tar.gz"
-      sha256 "639b776a7a33149ec3bbb5a30f093bae2570abab20baccb482230bc359bdf61f"
+      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.5/mq-bridge-pulsar-0.1.5-x86_64-apple-darwin.tar.gz"
+      sha256 "4c8b8c11ff52462ebcc0326a213763729e4f3b3c79ca07571b5cc9b54082b516"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.4/mq-bridge-pulsar-linux-x64-gnu.tar.gz"
-      sha256 "4dddb09adc152a322e89be55a3cffd3efc9c26806c57db53e9e261f114ff0754"
+      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.5/mq-bridge-pulsar-0.1.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d37850458fce9bf204b9c45788a8cb424590bdddd3ccd26aff01870b7439ea6a"
     end
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.4/mq-bridge-pulsar-linux-arm64-gnu.tar.gz"
-      sha256 "38de5dd3052183cd7716baacb5519426c1e27a21a5b75c4c0bb912a834d40fd1"
+      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.5/mq-bridge-pulsar-0.1.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "384999250fc240fe97140120c004298e1185cb867f500320f06e4ee8ba78fd86"
     end
   end
 
