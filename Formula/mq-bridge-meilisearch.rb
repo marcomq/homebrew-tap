@@ -4,28 +4,28 @@
 class MqBridgeMeilisearch < Formula
   desc "Meilisearch endpoint plugin for mq-bridge"
   homepage "https://github.com/marcomq/mq-bridge-meilisearch"
-  version "0.1.1"
+  version "0.1.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-meilisearch/releases/download/0.1.1/mq-bridge-meilisearch-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "6050d1103e521b04841bf6ed3d6a2842452939302c0708732a8b77525a11dbf9"
+      url "https://github.com/marcomq/mq-bridge-meilisearch/releases/download/0.1.2/mq-bridge-meilisearch-0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "ab49327ea89a5d77d500fa316af18d11dc429f3ff355cd84d6e0acc19d228051"
     end
     on_intel do
-      url "https://github.com/marcomq/mq-bridge-meilisearch/releases/download/0.1.1/mq-bridge-meilisearch-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "fd8243cacebe8358360b40c55de7e982fb52e43dac350b350f9e6099891c3b01"
+      url "https://github.com/marcomq/mq-bridge-meilisearch/releases/download/0.1.2/mq-bridge-meilisearch-0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "eb8a2800d8258dc0c1a7ec2eb13616513c8478c786154af8e916e756b516b146"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/marcomq/mq-bridge-meilisearch/releases/download/0.1.1/mq-bridge-meilisearch-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2c6fe58d8b052fa7963c623b055ea5460f88fa42a24e3c8860a9097482bb8d80"
+      url "https://github.com/marcomq/mq-bridge-meilisearch/releases/download/0.1.2/mq-bridge-meilisearch-0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4df34f56977a4dc957c18584e8dd245044865b6460ee517ccf54044e46bb5f0e"
     end
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-meilisearch/releases/download/0.1.1/mq-bridge-meilisearch-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cd5fbab065d74c31ae122cf5f50679f73caa5400e0e42d9caf85db1d349387eb"
+      url "https://github.com/marcomq/mq-bridge-meilisearch/releases/download/0.1.2/mq-bridge-meilisearch-0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0b1105846a2fd1a8217c5c1a934fbac60fe346bdec3f9c701cd1d3dffac13db3"
     end
   end
 
