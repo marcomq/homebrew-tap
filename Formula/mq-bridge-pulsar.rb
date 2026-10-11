@@ -4,28 +4,28 @@
 class MqBridgePulsar < Formula
   desc "Apache Pulsar endpoint plugin for mq-bridge"
   homepage "https://github.com/marcomq/mq-bridge-pulsar"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.5/mq-bridge-pulsar-0.1.5-aarch64-apple-darwin.tar.gz"
-      sha256 "dda72643096d7d4e76bf30127d1240538a10b0c5df6120432cba8914db6d9b9c"
+      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.6/mq-bridge-pulsar-0.1.6-aarch64-apple-darwin.tar.gz"
+      sha256 "d8a764f72b42afba6c508f184af398e1b22e08a62ca9c629066a76bf1a512527"
     end
     on_intel do
-      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.5/mq-bridge-pulsar-0.1.5-x86_64-apple-darwin.tar.gz"
-      sha256 "4c8b8c11ff52462ebcc0326a213763729e4f3b3c79ca07571b5cc9b54082b516"
+      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.6/mq-bridge-pulsar-0.1.6-x86_64-apple-darwin.tar.gz"
+      sha256 "8d1254e3625b4ac54cb15003f3428170490f088409e063b008d3d2bb358e8b74"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.5/mq-bridge-pulsar-0.1.5-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d37850458fce9bf204b9c45788a8cb424590bdddd3ccd26aff01870b7439ea6a"
+      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.6/mq-bridge-pulsar-0.1.6-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cb74e8a92f1275b2d1043b5af15fb62ed02948bded2d69e6dac6924c7d931464"
     end
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.5/mq-bridge-pulsar-0.1.5-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "384999250fc240fe97140120c004298e1185cb867f500320f06e4ee8ba78fd86"
+      url "https://github.com/marcomq/mq-bridge-pulsar/releases/download/0.1.6/mq-bridge-pulsar-0.1.6-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c645dc0defb01a5a1f3b6a63ce908aa9c13e497da2009adcc43506e084997a14"
     end
   end
 
