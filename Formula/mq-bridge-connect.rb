@@ -4,24 +4,24 @@
 class MqBridgeConnect < Formula
   desc "Unofficial Redpanda Connect compatibility plugin for mq-bridge"
   homepage "https://github.com/marcomq/mq-bridge-connect"
-  version "0.2.1"
+  version "0.2.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-connect/releases/download/v0.2.1/mq-bridge-connect-0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "47c40455c009b051972f902b23e085af4914fc89170792565cca2ca2d0e9fb26"
+      url "https://github.com/marcomq/mq-bridge-connect/releases/download/v0.2.2/mq-bridge-connect-0.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "cd24736186d8a7ed7e1c15e41ac2bf26cd18f7733d9ab5db7a4ae424c3c5aa95"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/marcomq/mq-bridge-connect/releases/download/v0.2.1/mq-bridge-connect-0.2.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "673f2db3cea020279ec6ca9650f3d7702e9401a5b70bb1e8e9eff3cf878e5788"
+      url "https://github.com/marcomq/mq-bridge-connect/releases/download/v0.2.2/mq-bridge-connect-0.2.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0f40f2983f5012a1c864f042d9ec76c5bf5f1e1c8f8bb5c04c2c0928264989d5"
     end
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-connect/releases/download/v0.2.1/mq-bridge-connect-0.2.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ca1a5f86c3566d5308f511165e129920cb25bf11843f3130a1f4dc668d2b7152"
+      url "https://github.com/marcomq/mq-bridge-connect/releases/download/v0.2.2/mq-bridge-connect-0.2.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f23fc90130b4c5a017ad5dffae941cdb1a8ef9b3943579dca2e6f8ecb73fef75"
     end
   end
 
