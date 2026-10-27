@@ -4,28 +4,28 @@
 class MqBridgeFaucet < Formula
   desc "faucet-stream connectors as an mq-bridge endpoint plugin"
   homepage "https://github.com/marcomq/mq-bridge-faucet"
-  version "0.1.1"
+  version "0.1.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-faucet/releases/download/0.1.1/mq-bridge-faucet-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "559ade0a674d70f04fe6ee261946cb03b9f593bc573185064b7cc2267479a07c"
+      url "https://github.com/marcomq/mq-bridge-faucet/releases/download/0.1.2/mq-bridge-faucet-0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "08b52487357cc686663c9eeefef3e560cf2e50cd118120b00e4cb83a811001ec"
     end
     on_intel do
-      url "https://github.com/marcomq/mq-bridge-faucet/releases/download/0.1.1/mq-bridge-faucet-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "598fd1c6e65ef982a1e7f4a07072854f7c64106616c648505e6c946dc2de5592"
+      url "https://github.com/marcomq/mq-bridge-faucet/releases/download/0.1.2/mq-bridge-faucet-0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "298f9d6f99bdfd07e0261c8c4471630a156410cb535b66a9cbcff48578d81d8f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/marcomq/mq-bridge-faucet/releases/download/0.1.1/mq-bridge-faucet-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "46d03f7bfb72125ede71ad456cc8e6e7b76b13a7922c5a5eb60408d02c6e11bf"
+      url "https://github.com/marcomq/mq-bridge-faucet/releases/download/0.1.2/mq-bridge-faucet-0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c6db549c3a5e0ed9b4f8d071a832fb7fdc09a3f0c92b1de4cc124051c2703aac"
     end
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-faucet/releases/download/0.1.1/mq-bridge-faucet-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9c28abbf6df97ce2694ff37ab30a6cb817ded2888ebb3b8a24a4c5aa8cee1d66"
+      url "https://github.com/marcomq/mq-bridge-faucet/releases/download/0.1.2/mq-bridge-faucet-0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f092b9e4168860e8c1d4b52fb273b75cf6d1683ecc0caaf081cd7ccaf5a94923"
     end
   end
 
