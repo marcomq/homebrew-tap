@@ -4,31 +4,31 @@
 class MqBridgeOnnx < Formula
   desc "Local ONNX inference endpoint plugin for mq-bridge"
   homepage "https://github.com/marcomq/mq-bridge-onnx"
-  version "0.1.1"
+  version "0.1.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-onnx/releases/download/0.1.1/mq-bridge-onnx-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "6c6df2e6de0096bb182172cc28fca82d50c3ddf7b9467d233cc22762052dd01b"
+      url "https://github.com/marcomq/mq-bridge-onnx/releases/download/0.1.2/mq-bridge-onnx-0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "81507f7af5487f05dcaa1d257ad69bc4b4a000338a5cd1c9674b79db9dc47f6b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/marcomq/mq-bridge-onnx/releases/download/0.1.1/mq-bridge-onnx-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "14f4e040618eced69fdda072805b857adba9e879f1b6007bc8051beafe34ad1c"
+      url "https://github.com/marcomq/mq-bridge-onnx/releases/download/0.1.2/mq-bridge-onnx-0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "476bda0f7775706962d3d1b0c0e35096667dd92bdc0435dad58d1839ed807536"
     end
     on_arm do
-      url "https://github.com/marcomq/mq-bridge-onnx/releases/download/0.1.1/mq-bridge-onnx-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b4d9f5e8a7df4422d685fdb815d1ebd7b37e3385ae450ab65782e1754ba1f275"
+      url "https://github.com/marcomq/mq-bridge-onnx/releases/download/0.1.2/mq-bridge-onnx-0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "812ed111e0fa6307e5920dae5bebed8802fa85378d42ad7afdf7803ec23199e5"
     end
   end
 
   def install
     # $HOMEBREW_PREFIX/lib/mq-bridge is on mq-bridge's plugin search path.
     (lib/"mq-bridge").install Dir["libmq_bridge_onnx.*"]
-    doc.install "LICENSE-MIT", "LICENSE-APACHE"
+    doc.install "THIRD_PARTY_NOTICES", "LICENSE-MIT", "LICENSE-APACHE"
   end
 
   test do
