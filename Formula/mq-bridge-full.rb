@@ -4,24 +4,24 @@
 class MqBridgeFull < Formula
   desc "Every built-in mq-bridge endpoint and middleware as one loadable plugin library"
   homepage "https://github.com/marcomq/mq-bridge"
-  version "1.6.1"
+  version "1.6.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/marcomq/mq-bridge/releases/download/v1.6.1/mq-bridge-full-1.6.1-aarch64-apple-darwin.tar.gz"
-      sha256 "c2e74f55d17b29ad665cf1597be17a82853ea16a0bf1a64ee1320da4aed38838"
+      url "https://github.com/marcomq/mq-bridge/releases/download/v1.6.2/mq-bridge-full-1.6.2-aarch64-apple-darwin.tar.gz"
+      sha256 "0df9121d435c9bc0f280545760319634e64eb38bc709b369122edcde1813dcef"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/marcomq/mq-bridge/releases/download/v1.6.1/mq-bridge-full-1.6.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cbf4ed19cb5bd429173d9f053bd6d7d1db68a51caf9ca7eb3fffda5af8ed89f9"
+      url "https://github.com/marcomq/mq-bridge/releases/download/v1.6.2/mq-bridge-full-1.6.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6478046fca798ada9c0a1296b5e967e54fbc0930a965935f0164aa62985d0223"
     end
     on_arm do
-      url "https://github.com/marcomq/mq-bridge/releases/download/v1.6.1/mq-bridge-full-1.6.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4e2ef43ee8af68cec9733acc3b3816839b0b68f090e40abd6925460223d9dddc"
+      url "https://github.com/marcomq/mq-bridge/releases/download/v1.6.2/mq-bridge-full-1.6.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "eb5ed7a4791e353caf51476cadce88258b6afdc156922641ffc33bc9144ca829"
     end
   end
 
